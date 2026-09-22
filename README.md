@@ -34,36 +34,14 @@ Designers, product managers, and crisis response volunteers spend hours manually
 
 ```mermaid
 flowchart TD
-    subgraph INTAKE["1. Multi-Modal Intake & Compression"]
-        A1["📸 Webcam Live Scanner"] --> C1["Client-Side Token Compressor\n(1024px Downscale / 85% JPEG)"]
-        A2["📁 File Drop / Paste (Ctrl+V)"] --> C1
-        A3["⚡ Built-in Field Presets\n(SaaS, Mobile, Disaster Relief)"] --> C1
-    end
-
-    subgraph INFERENCE["2. Gemini Multimodal Reasoning Engine"]
-        C1 -->|"Base64 Ingestion (1,500 RPD Free Tier)"| G1["Google Gemini 1.5 Flash Vision"]
-        G1 -->|"Structured Schema Output"| J1["Parsed JSON Payload:\n- HTML5 + Tailwind CDN\n- UX Score (75-98)\n- Flaw Critique\n- Auto-Fixes Applied"]
-        G1 -.->|"429 / Quota Error Catch"| FB["Fail-Safe Pre-Baked Cache\n(Zero Evaluation Outages)"]
-        FB --> J1
-    end
-
-    subgraph STUDIO["3. Developer Studio & Self-Healing Audit"]
-        J1 --> P1["Live Preview Sandbox\n(IFrame Isolated)"]
-        J1 --> P2["AI Staff UX Audit\n(Circular Gauge + Flaw Matrix)"]
-        J1 --> P3["Framework Code Switcher\n(HTML5 ⟷ React TSX)"]
-        
-        P1 -->|"Chat with your UI"| REF["Iterative AI Refinement\n(/api/refine Route)"]
-        REF --> G1
-        
-        P3 -->|"Manual Code Tweaks"| HOT["Hot-Reload Sync Engine\n(Immediate Iframe Update)"]
-        HOT --> P1
-    end
-
-    subgraph EXPORT["4. Production & Field Delivery"]
-        P1 -->|"Trace & Compare"| SPLIT["Side-by-Side Split Audit"]
-        P1 -->|"Download Standalone"| EXP1["1-Click index.html (Runs 100% Offline)"]
-        P1 -->|"Field Triage"| EXP2["Client-Side CSV Export (RAM Buffer)"]
-    end
+    A["📷 Paper Sketch / Webcam Snap"] --> B["⚡ Client-Side Compression (1024px)"]
+    B --> C["🧠 Gemini 1.5 Flash Vision"]
+    C --> D["📊 Structured JSON Reasoning"]
+    D --> E["🛠️ Self-Healing Engine (WCAG AA & Touch Targets)"]
+    D --> F["📋 AI UX Audit Score (Critique & Metrics)"]
+    E --> G["💻 Live Interactive Studio (Split / Trace View)"]
+    G --> H["📦 1-Click Standalone HTML"]
+    G --> I["📥 Offline Field Triage CSV Export"]
 ```
 
 ---
