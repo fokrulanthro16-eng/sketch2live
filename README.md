@@ -30,6 +30,33 @@ Designers, product managers, and crisis response volunteers spend hours manually
 
 ---
 
+## 📸 Application Showcase & Demos
+
+<div align="center">
+
+### 1. Live Studio: Side-by-Side "Trace & Compare" View
+*Compare original paper sketches against live, interactive synthesized Tailwind CSS in real time.*
+
+<img src="docs/screenshots/studio-preview.png" alt="Sketch2Live Main Studio Split View" width="95%" style="border-radius: 12px; border: 1px solid #27272a; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.7);" />
+
+<br/><br/>
+
+### 2. Autonomous AI Staff UX Architect & Self-Healing Audit
+*Comprehensive usability scoring (94/100), raw sketch flaw critique, and auto-healed WCAG 2.1 AA accessibility matrix.*
+
+<img src="docs/screenshots/ux-audit.png" alt="AI Staff UX Architect Evaluation" width="95%" style="border-radius: 12px; border: 1px solid #27272a; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.7);" />
+
+<br/><br/>
+
+### 3. Emergency Disaster Relief Field Triage & Instant Offline CSV Export
+*Zero-connectivity field intake form buffering victim records into browser memory with instant 1-click CSV download.*
+
+<img src="docs/screenshots/disaster-triage.png" alt="Disaster Relief Field Triage & CSV Export" width="95%" style="border-radius: 12px; border: 1px solid #27272a; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.7);" />
+
+</div>
+
+---
+
 ## 🏗️ System Architecture
 
 ```mermaid
